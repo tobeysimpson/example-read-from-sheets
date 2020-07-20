@@ -9,14 +9,14 @@ layout: default
 The lists below showing NBA AllStar starting fives for 2019 were sourced from [a Google Sheet](https://docs.google.com/spreadsheets/d/1CfI6XGm9OjjNKGr3kXRSKVLui_gkHZdadoOPIiNgE9s/edit#gid=0) as [JSON](https://spreadsheets.google.com/feeds/list/1CfI6XGm9OjjNKGr3kXRSKVLui_gkHZdadoOPIiNgE9s/od6/public/values?alt=json) at site build time.
 
 
-### Eastern Conference All Stars
+### Peeps from the East
 <ul class="listing">
 {%- for item in sheet.East -%}
   <li>{{ item.name }} - {{ item.team }}</li>
 {%- endfor -%}
 </ul>
 
-### Western Conference All Stars
+### Peeps from the West
 <ul class="listing">
 {%- for item in sheet.West -%}
   <li>{{ item.name }} - {{ item.team }}</li>
